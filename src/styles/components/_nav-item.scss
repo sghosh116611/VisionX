@@ -1,0 +1,30 @@
+.navbar{
+  background: whitesmoke;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+}
+
+.nav-item
+{
+  font-size: $m-size;
+}
+.nav-link{
+  color: black;
+}
+
+.nav-link{
+  transition: 0.3s ease;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.nav-link:hover {
+  border-top: 4px solid #bb1111;
+  border-bottom: 4px solid  #bb1111;
+  padding: 6px 0; 
+}

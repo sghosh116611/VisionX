@@ -1,0 +1,23 @@
+.course-intro {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 35vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.div-container{
+    height: 40%;
+    width: 40%;
+}

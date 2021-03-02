@@ -1,0 +1,42 @@
+.icon {
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .icon a {
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .icon a:hover .right{
+    border: 0.5em solid #e74c3c;
+  }
+  
+  .icon a:hover .right:after {
+    border-top: 0.5em solid #e74c3c;
+    border-right: 0.5em solid #e74c3c;
+  }
+  
+  .right {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    margin-left: 1.5em;
+  }
+  
+  .right:after {
+    content: '';
+      display: inline-block;
+    margin-top: 1.05em;
+    margin-left: -0.6em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #333;
+    border-right: 0.5em solid #333;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

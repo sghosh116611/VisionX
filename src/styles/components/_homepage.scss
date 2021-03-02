@@ -1,0 +1,110 @@
+.content-title {
+  margin-bottom: 20px;
+}
+
+.content-title > h1 {
+  margin-top: 10px;
+}
+
+.content-body > h2 {
+  font-size: $font-size-large;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+.intro {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.intro {
+  background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_933383882_2000133420009280345_410292.jpg")
+    50% 0 repeat-y fixed;
+}
+
+.courses {
+  background: rgb(255, 255, 255) 100% 0 repeat-y fixed;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.body-title {
+  display: inline-block;
+  word-wrap: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 10px double #0641af;
+  border-bottom: 10px double #0641af;
+  padding: 0.5%;
+}
+
+#speakers {
+  background: #f9f9f9;
+}
+
+#speakers h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+#speakers h6 {
+  color: #666;
+  margin-top: 4px;
+}
+
+#speakers img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#speakers .col-md-3 {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 22px;
+}
+
+#speakers .speakers-wrapper {
+  background: #ffffff;
+  padding-bottom: 22px;
+}
+
+.path {
+  background: rgb(255, 255, 255) 100% 0 repeat-y fixed;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: black;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+// .goals {
+//   background: rgb(7, 224, 159) 100% 0 repeat-y fixed;
+//   // margin-top: 3%;
+//   height: auto;
+//   width: 100%;
+//   padding: 2%;
+//   text-align: center;
+//   color: rgb(0, 0, 0);
+// }
